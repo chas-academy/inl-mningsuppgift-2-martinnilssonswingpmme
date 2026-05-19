@@ -3,6 +3,16 @@
 
 // This is where you add the two functions
 
+// fahrenheit to Celsius conversion
+float fahrenheit_to_celsius(float temp_f) {
+    return (temp_f - 32) * 5.0 / 9.0;
+}
+
+// Celsius to fahrenheit conversion
+float celsius_to_fahrenheit(float temp_c) {
+    return (temp_c * 9.0 / 5.0) + 32;
+}   
+
 int main() {
     float temp_f = 100.0;
     float temp_c = 37.0;
